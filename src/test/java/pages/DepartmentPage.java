@@ -12,4 +12,7 @@ public class DepartmentPage {
 
     @FindBy(id = "firstName")
     public WebElement firstName;
+
+    @FindBy(id = "firstName")
+    public WebElement firstName1;
 }
