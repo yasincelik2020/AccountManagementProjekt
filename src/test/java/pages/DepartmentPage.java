@@ -10,9 +10,14 @@ public class DepartmentPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(id = "firstName")
-    public WebElement firstName;
+    @FindBy(xpath = "//a[.='Login']")
+    public WebElement LoginButton;
 
-    @FindBy(id = "firstName")
-    public WebElement firstName1;
+    @FindBy(xpath = "//label[.='Username or Email']")
+    public WebElement UsernameOrEmail;
+
+    @FindBy(xpath = "//*[@id=\"link5\"]/a")
+    public WebElement cookies;
+
+
 }
